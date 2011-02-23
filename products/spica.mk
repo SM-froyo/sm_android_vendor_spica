@@ -17,9 +17,9 @@ PRIVATE_BUILD_DESC="spica-user 2.2.1 FRG83 60505 release-keys"
 
 ifdef CYANOGEN_NIGHTLY
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6-$(shell date +%m%d%Y)-NIGHTLY-SPICA
+        ro.modversion=SpicagenMod-Froyo-$(shell date +%m%d%Y)-NIGHTLY
 else
     PRODUCT_PROPERTY_OVERRIDES += \
-        ro.modversion=CyanogenMod-6.1.1-Spica-alpha8.3
+        ro.modversion=SpicagenMod-Froyo-alpha0
 endif
 
