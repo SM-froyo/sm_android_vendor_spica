@@ -20,11 +20,8 @@ ro.product.max_num_touch=2
 net.bt.name=Android
 net.dns1=8.8.4.4
 net.dns2=8.8.8.8
-mobiledata.interfaces=pdp0,eth0,gprs,ppp0
-wifi.supplicant_scan_interval=90
 
 # Network settings + 3G/EDGE Hacks
-ro.telephony.default_network=0
 ro.ril.hep=1
 ro.ril.hsxpa=2
 ro.ril.enable.dtm=1
@@ -36,16 +33,9 @@ ro.ril.enable.3g.prefix=1
 ro.com.android.dataroaming=false
 
 # DalvikVM
-dalvik.vm.dexopt-data-only=1
-dalvik.vm.heapsize=32m
 dalvik.vm.stack-trace-file=/data/anr/traces.txt
 
 # Misc
-ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html
-ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-ro.com.google.clientidbase=android-google
-ro.com.android.wifi-watchlist=GoogleGuest
-ro.setupwizard.enterprise_mode=1
 ro.setupwizard.mode=OPTIONAL
 rild.libpath=/system/lib/libsec-ril.so
 rild.libargs=-d /dev/ttyS0
