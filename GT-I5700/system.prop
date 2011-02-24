@@ -50,6 +50,5 @@ windowsmgr.max_events_per_sec=60
 
 # Settings that need to be tested: (the next two are supposed to enhance video decoding)
 #video.accelerate.hw=1  
-#debug.performance.tuning=1
 # ring delay shortened so phone rings faster
 ro.telephony.call_ring.delay=1000
